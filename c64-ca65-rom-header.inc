@@ -1,6 +1,6 @@
-	.org  $7ffe
+	.org  $1ffe
 ; 2-byte load address for ROM image
-        .word $8000
+        .word $2000
 ; http://swut.net/c64cart-howto.html
 ; https://codebase64.org/doku.php?id=base:assembling_your_own_cart_rom_image
 	.word CartKReset	; cold start vector
